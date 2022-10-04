@@ -12,8 +12,9 @@ I'm currently using the Jekyll static site generator as recommended by [Techno T
 
 To start the local server to view changes to the posts on your development machine, use the following command at the bash prompt:
 ~~~bash
-bundle exec jekyll s
+bundle exec jekyll s --host 0.0.0.0 
 ~~~
+The --host parameter was added to allow the site to be browsed from any host within the network.
 
 ## Hosting - Github Pages
 
